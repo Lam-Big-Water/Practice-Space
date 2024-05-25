@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    background-color: hsl(0, 1%, 17%);
+    padding: 25px;
+
+    &__primary--title {
+      font-size: 3rem;
+      color: deeppink;
+      margin-right: auto;
+    }
+
+    &__nav--link {
+      
+      &:link,
+      &:visited {
+          font-size: 1.8rem;
+          color: rgb(249, 248, 248);
+          font-weight: 500;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+
+      }
+    }
+
+    
+  }
