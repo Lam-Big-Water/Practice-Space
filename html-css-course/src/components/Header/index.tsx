@@ -1,7 +1,7 @@
 import { Link, Routes, Route } from "react-router-dom";
 import { Blog } from "../../Pages/Blog";
-import './index.scss'
-export const Header = () => {
+import '../../style/Header.scss'
+ const Header = () => {
   return (
     <header className='header'> 
             <h1 className="header__primary--title">🚞 The Code Magazine</h1>
@@ -19,3 +19,4 @@ export const Header = () => {
     </header>     
   )
 }
+export default Header

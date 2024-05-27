@@ -1,0 +1,31 @@
+.info {
+    border: 3px solid black;
+    padding: 2rem;
+    .info__part {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    
+        &--avatar {
+            width: 44px;
+            height: 44px;
+        }
+    
+        &--intro {
+            font-size: 1.8rem;
+        }
+    }
+    
+    .info__information {
+        padding: 1rem 0;
+    
+        &--img {
+            padding: 1rem 0;
+        }
+    
+        &--text {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+}
